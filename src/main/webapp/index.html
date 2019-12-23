@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:margin="http://www.w3.org/1999/xhtml">
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- fancyBox -->
+    <link href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Karaoke</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+         }
+        #left { text-align: left; }
+        #right { text-align: right; }
+        #center { text-align: center; }
+        #center1 { text-align: center; }
+
+        body {
+            background-image: url(images/background.jpg); /* Путь к фоновому рисунку */
+            background-repeat: no-repeat; /* Повторяем фон по горизонтали */
+            background-size: 100%;
+        }
+
+    </style>
+</head>
+<body style="background-color:rgba(0,0,0,0.95); padding: 0">
+<header id="center"><img src="images/header_image3.png" width="100%">
+</header>
+<div class="btn-group-justified">
+    <a href="CreateOrderServlet" class="btn btn-primary">Create Order</a>
+    <a href="about_us.html" class="btn btn-primary">About Us</a>
+    <a href="contacts" class="btn btn-primary">Contacts</a>
+</div>
+<div>
+    <h1 style="text-align: center;margin: 20px; font-family: Bradley Hand ITC; font-weight: bold; color:rgba(249,188,197,0.95)" class="text-primary rounded img-fluid adaptive-tech">What we suggest:</h1>
+</div>
+
+<div id="center1">
+    <a href="ListDisksServlet" class="btn btn-primary" style="margin-right: 20px;">List of disks</a>
+    <a href="list_groups.jsp" class="btn btn-primary" style="margin-left: 20px;">List of groups</a>
+</div>
+<div align="center" class="container">
+    <h2 style="color:rgba(249,188,197,0.95); font-family: Bradley Hand ITC; font-weight: bold;">Our atmosphere:</h2>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="images\gallery\1.jpg">
+                <img alt="..." class="img-fluid" src="images\gallery\1.jpg" width="150px" height="100px">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="images\gallery\2.jpg">
+                <img alt="..." class="img-fluid" src="images\gallery\2.jpg" width="150px" height="100px">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="images\gallery\3.jpg">
+                <img alt="..." class="img-fluid" src="images\gallery\3.jpg" width="150px" height="100px">>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="images\gallery\4.jpg">
+                <img alt="..." class="img-fluid" src="images\gallery\4.jpg" width="150px" height="100px">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb" style="margin-top: 20px; margin-bottom: 20px">
+            <a data-fancybox="gallery" href="images\gallery\5.jpg">
+                <img alt="..." class="img-fluid" src="images\gallery\5.jpg" width="150px" height="100px">
+            </a>
+</div>
+    </div>
+    <footer style="color:rgba(249,188,197,0.95); font-family: Bradley Hand ITC; font-weight: bold;">
+        <p id="pFooter">KARAOKE 2019</p>
+    </footer>
+</div>
+</body>
+</html>
