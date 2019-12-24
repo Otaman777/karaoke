@@ -6,7 +6,7 @@
   <session-factory>
     <property name="connection.url">jdbc:postgresql://localhost:5432/karaoke</property>
       <property name="connection.username">postgres</property>
-    <property name="connection.password">55555</property>
+    <property name="connection.password">0000</property>
     <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
     <property name="hibernate.format_sql">true</property>
     <property name="default_schema">public</property>

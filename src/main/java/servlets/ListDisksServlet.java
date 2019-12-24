@@ -37,6 +37,6 @@ public class ListDisksServlet extends HttpServlet {
         HttpSession sessionForJSP = request.getSession();
         sessionForJSP.setAttribute("tableName", "Disks");
         sessionForJSP.setAttribute("tableModel", model);
-        request.getRequestDispatcher("ListTables.jsp").forward(request, response);
+        request.getRequestDispatcher("ListTables2.jsp").forward(request, response);
     }
 }

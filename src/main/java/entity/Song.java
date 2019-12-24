@@ -11,7 +11,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name="songs")
-@NamedQuery(name="Song.findAll", query="SELECT s FROM Song s")
+@NamedQuery(name="Song.findAll", query="select s from Song s")
 public class Song implements Serializable, IModel {
 	private static final long serialVersionUID = 1L;
 
@@ -20,9 +20,6 @@ public class Song implements Serializable, IModel {
 	private Long idSong;
 
 	private String duration;
-
-	@Column(name="music_group")
-	private String musicGroup;
 
 	@Column(name="name_song")
 	private String nameSong;
@@ -53,14 +50,6 @@ public class Song implements Serializable, IModel {
 		this.duration = duration;
 	}
 
-	public String getMusicGroup() {
-		return this.musicGroup;
-	}
-
-	public void setMusicGroup(String musicGroup) {
-		this.musicGroup = musicGroup;
-	}
-
 	public String getNameSong() {
 		return this.nameSong;
 	}
@@ -87,12 +76,12 @@ public class Song implements Serializable, IModel {
 
 	@Override
 	public String[] getTableHeaders() {
-		return new String[]{"Id","Music Group","Song Name","Year","Duration", "Disk"};
+		return new String[]{"Id","Song Name","Year","Duration", "Disk"};
 	}
 
 	@Override
 	public Object[] getTableRowData() {
-		return new Object[]{idSong, getMusicGroup(), getNameSong(), getYear(), getDuration(), getDisk()};
+		return new Object[]{idSong, getNameSong(), getYear(), getDuration(), getDisk()};
 	}
 
 	@Override
@@ -103,7 +92,6 @@ public class Song implements Serializable, IModel {
 	@Override
 	public void updateWith(Object mask) {
 		Song obj = (Song) mask;
-		musicGroup = obj.getMusicGroup();
 		nameSong = obj.getNameSong();
 		year = obj.getYear();
 		duration = obj.getDuration();

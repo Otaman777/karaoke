@@ -20,7 +20,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
     <meta charset="UTF-8">
-    <title>Create Order</title>
+    <title>List of groups</title>
     <style>
         .margins {
             margin: 10px
@@ -64,6 +64,7 @@
         <%
             }
         %>
+        <th scope="col" width="100">Songs</th>
     </tr>
     <%
         int nRow = tableModel.getRowCount();
@@ -82,6 +83,7 @@
         <%
             }
         %>
+        <td width="100" align="center"><a href="ListSongsGrServlet?id=<%=tableModel.getValueAt(r,0)%>">Go</a></td>
     </tr>
     <%
         }

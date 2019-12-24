@@ -130,4 +130,8 @@ public class Disk implements Serializable, IModel {
 		group = obj.getGroup();
 	}
 
+	@Override
+	public String toString() {
+		return nameDisk;
+	}
 }
