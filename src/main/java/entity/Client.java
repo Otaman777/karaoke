@@ -19,6 +19,7 @@ public class Client implements Serializable, IModel {
 	private static final long serialVersionUID = 1L;
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id_client")
 	private Long idClient;
 
@@ -31,6 +32,10 @@ public class Client implements Serializable, IModel {
 	private List<Order> orders;
 
 	public Client() {
+	}
+
+	public Client(Long id) {
+		this.idClient = id;
 	}
 
 	public Long getIdClient() {

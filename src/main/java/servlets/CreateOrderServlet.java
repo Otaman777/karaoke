@@ -2,6 +2,7 @@ package servlets;
 
 import HelperClasses.HibernateUtil;
 import HelperClasses.OrderHelper;
+import entity.Client;
 import entity.IModel;
 import entity.Order;
 import org.hibernate.Session;
@@ -14,8 +15,11 @@ import javax.servlet.http.HttpSession;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 @WebServlet(urlPatterns = "/CreateOrderServlet")
 public class CreateOrderServlet extends javax.servlet.http.HttpServlet {
@@ -24,14 +28,16 @@ public class CreateOrderServlet extends javax.servlet.http.HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Session session = HibernateUtil.getSessionFactory().openSession();
         List orderList = new OrderHelper().getOrderList();
         String[] header = new OrderHelper().getOrderList().get(0).getTableHeaders();
         int j = 0;
+        SimpleDateFormat myFormat = new SimpleDateFormat("yyyy-MM-dd");
+        String date2 = "";
         for (Object s : orderList) {
             Date oldDate = ((Order) s).getDate();
             Date date = new Date();
-            if (oldDate.after(date)) {
+            date2 = myFormat.format(date);
+            if (oldDate.after(date) || oldDate.toString().equals(date2)) {
                 j++;
             }
         }
@@ -40,7 +46,8 @@ public class CreateOrderServlet extends javax.servlet.http.HttpServlet {
         for (Object s : orderList) {
             Date oldDate = ((Order) s).getDate();
             Date date = new Date();
-            if (oldDate.after(date)) {
+            date2 = myFormat.format(date);
+            if (oldDate.after(date) || oldDate.toString().equals(date2)) {
                 array[i++] = ((IModel) s).getTableRowData();
             }
         }
@@ -48,15 +55,8 @@ public class CreateOrderServlet extends javax.servlet.http.HttpServlet {
         HttpSession sessionForJSP = request.getSession();
         sessionForJSP.setAttribute("tableName", "Order");
         sessionForJSP.setAttribute("tableModel", model);
+        sessionForJSP.setAttribute("param", (Integer)0);
 
-//        for (Order order: new OrderHelper().getOrderList()
-//             ) {
-//            try {
-//                System.out.println("ORDER = " + order.);
-//            } catch (NoSuchFieldException e) {
-//                e.printStackTrace();
-//            }
-//        }
         request.getRequestDispatcher("CreateOrder.jsp").forward(request, response);
     }
 

@@ -45,4 +45,13 @@ public class OrderHelper {
     public Order getOrder(String name){
         return null;
     }
+
+    public Order addOrder(Order order){
+        Session session = sessionFactory.openSession();
+        session.beginTransaction();
+        session.save(order);
+        session.getTransaction().commit();
+        session.close();
+        return order;
+    }
 }

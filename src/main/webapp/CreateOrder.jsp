@@ -35,24 +35,38 @@
             display: inline-block;
             font-size: 36px;
         }
+        .inf_block{
+            width:300px;
+            height: 150px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: white;
+            text-align: center;
+            border-radius: 10px;
+            opacity: 0.7;
+        }
     </style>
 </head>
 <body style="background-image: url(images/backgr.jpg)">
+<button class="btn btn-light" style="margin: 10px"><a href="index.html">Home page</a></button>
 <%
     String tableName = (String) (session.getAttribute("tableName"));
     TableModel tableModel = (TableModel) (session.getAttribute("tableModel"));
+    Integer param = (Integer) session.getAttribute("param");
 %>
 
 <div style="text-align: center">
     <h1 class="text" style="font-size: 65pt">ORDER</h1>
 </div>
 
-    <form action="CreateOrderServlet" name="fillingInform" method="POST" style="text-align: center">
-        <label class="text">Your name: <input type="text" class="margins" style=" border: #FF97FF"></label>
-        <br><label class="text">Phone: <input type="text" class="margins" style=" border: #FF97FF"></label>
-        <br><label class="text">Date: <input type="date" class="margins" style=" border: #FF97FF"><input type="text" style=" border: #FF97FF"></label>
-        <br><label class="text">Lasting: <input type="text" class="margins" style=" border: #FF97FF">hour(s) (Minimum 1 hour)</label>
-        <br><button class="button text" type="submit" value="order"> </button>
+    <form action="AddOrderServlet" name="fillingInform" method="POST" style="text-align: center">
+        <input name="param" value="1" type="hidden">
+        <label class="text">Your name: <input name="name" type="text" class="margins" style=" border: #FF97FF"></label>
+        <br><label class="text">Phone: <input name="phone" type="text" class="margins" style=" border: #FF97FF"></label>
+        <br><label class="text">Date: <input name="date" type="date" class="margins" style=" border: #FF97FF"><input name="time" type="text" style=" border: #FF97FF"></label>
+        <br><label class="text">Lasting: <input name="during" type="text" class="margins" style=" border: #FF97FF">hour(s) (Minimum 1 hour)</label>
+        <br><button name="add_order" class="button text" type="submit" value="order"> </button>
         <!-- onclick="http://localhost:8080/Karaoke/test" -->
     </form>
 <h3 style="text-align: center" class="text"> Table <%=tableName%></h3>
@@ -94,7 +108,22 @@
         }
     %>
 </table>
-
-
+<%
+  if(param == 1){
+%>
+<div class="inf_block" style="background: #90ff6b">
+    <p style="margin: 40px">You successfully add new order!<br>
+    You can add new order or go <a href="index.html">home page</a></p>
+</div>
+<%
+    }else if(param == 2){
+%>
+<div class="inf_block" style="background: #ff5d54">
+    <p style="margin: 40px">You filled in wrong values!<br>
+        You can try do it again or go <a href="index.html">home page</a></p>
+</div>
+<%
+    }
+%>
 </body>
 </html>

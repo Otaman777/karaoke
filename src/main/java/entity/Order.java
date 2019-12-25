@@ -17,6 +17,7 @@ public class Order implements Serializable, IModel {
 	private static final long serialVersionUID = 1L;
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id_order")
 	private Long idOrder;
 
@@ -36,6 +37,14 @@ public class Order implements Serializable, IModel {
 	private Client client;
 
 	public Order() {
+	}
+
+	public Order(Date date, Integer duration, Integer priceAll, Integer time, Client client) {
+		this.date = date;
+		this.duration = duration;
+		this.priceAll = priceAll;
+		this.time = time;
+		this.client = client;
 	}
 
 	public Long getIdOrder() {

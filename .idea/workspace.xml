@@ -2,42 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce8c3ef3-aa6e-4bf9-9572-2591b39fcfab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HelperClasses/GroupHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HelperClasses/SongHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/ListGroupServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/ListSongsDskServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/ListSongsGrServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ListSongs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ListTables2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HelperClasses/ClientHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/about-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/about_us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4e3ca01-d577-4235-92bd-8b1fcbf36951.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4e3ca01-d577-4235-92bd-8b1fcbf36951.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f087df78-f208-404a-b05d-8a1aa003d441.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f087df78-f208-404a-b05d-8a1aa003d441.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Karaoke.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Karaoke.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Karaoke-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Karaoke-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Disk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/ListDisksServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/ListDisksServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelperClasses/OrderHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelperClasses/OrderHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/CreateOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/CreateOrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CreateOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CreateOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ListSongs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListSongs.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/ListTables.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListTables.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ListTables2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListTables2.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,8 +120,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -175,7 +164,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -184,20 +173,21 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\karaoke\src\main\webapp" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="entity" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\karaoke\src\main\webapp" />
       <recent name="C:\Karaoke\src\main\java" />
       <recent name="C:\Karaoke\src\main\java\entity" />
       <recent name="C:\Karaoke\src\main\webapp" />
       <recent name="C:\Karaoke\src\main\resources" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\karaoke\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -357,8 +347,12 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="root:karaoke@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:karaoke@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@592a80e5" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -385,6 +379,8 @@
       <workItem from="1577127784744" duration="733000" />
       <workItem from="1577129258891" duration="10889000" />
       <workItem from="1577209447296" duration="216000" />
+      <workItem from="1577212589001" duration="13190000" />
+      <workItem from="1577281052955" duration="12221000" />
     </task>
     <servers />
   </component>
@@ -396,6 +392,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1577131848063" />
+    <state x="361" y="71" key="#Auto_Import" timestamp="1577218651027">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1577218651027" />
     <state x="361" y="71" key="#Tomcat_Server" timestamp="1577129664637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -404,10 +404,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577130320658" />
-    <state x="539" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1577137076736">
+    <state x="539" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1577213603919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="539" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577137076736" />
+    <state x="539" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577213603919" />
     <state x="620" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577129390383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -424,69 +424,84 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577129657817" />
-    <state width="1024" height="188" key="GridCell.Tab.0.bottom" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.0.bottom" timestamp="1577304659471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
-    <state width="1024" height="188" key="GridCell.Tab.0.center" timestamp="1577140630867">
+    <state width="1024" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577304659471" />
+    <state width="1024" height="188" key="GridCell.Tab.0.center" timestamp="1577304659471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577140630867" />
-    <state width="1024" height="188" key="GridCell.Tab.0.left" timestamp="1577140630867">
+    <state width="1024" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577304659471" />
+    <state width="1024" height="188" key="GridCell.Tab.0.left" timestamp="1577304659470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577140630867" />
-    <state width="1024" height="188" key="GridCell.Tab.0.right" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577304659470" />
+    <state width="1024" height="188" key="GridCell.Tab.0.right" timestamp="1577304659471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
-    <state width="1024" height="188" key="GridCell.Tab.1.bottom" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577304659471" />
+    <state width="1024" height="188" key="GridCell.Tab.1.bottom" timestamp="1577301902853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
-    <state width="1024" height="188" key="GridCell.Tab.1.center" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577301902853" />
+    <state width="1024" height="188" key="GridCell.Tab.1.center" timestamp="1577301902853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
-    <state width="1024" height="188" key="GridCell.Tab.1.left" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577301902853" />
+    <state width="1024" height="188" key="GridCell.Tab.1.left" timestamp="1577301902853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
-    <state width="1024" height="188" key="GridCell.Tab.1.right" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577301902853" />
+    <state width="1024" height="188" key="GridCell.Tab.1.right" timestamp="1577301902853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
-    <state width="1024" height="188" key="GridCell.Tab.2.bottom" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577301902853" />
+    <state width="1024" height="188" key="GridCell.Tab.2.bottom" timestamp="1577301902853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
-    <state width="1024" height="188" key="GridCell.Tab.2.center" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577301902853" />
+    <state width="1024" height="188" key="GridCell.Tab.2.center" timestamp="1577301902853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
-    <state width="1024" height="188" key="GridCell.Tab.2.left" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1577301902853" />
+    <state width="1024" height="188" key="GridCell.Tab.2.left" timestamp="1577301902853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
-    <state width="1024" height="188" key="GridCell.Tab.2.right" timestamp="1577140630868">
+    <state width="1024" height="188" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1577301902853" />
+    <state width="1024" height="188" key="GridCell.Tab.2.right" timestamp="1577301902853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="188" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1577140630868" />
+    <state width="1024" height="188" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1577301902853" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1577136285264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577136285264" />
-    <state x="470" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1577209560369">
+    <state x="470" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1577281079932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577209560369" />
+    <state x="470" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577281079932" />
     <state x="405" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577131568460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="405" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1577131568460" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577134270213">
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577304658458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1577134270213" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1577304658458" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577222242742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1577222242742" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/CreateOrder.jsp</url>
+          <line>111</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

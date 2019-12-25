@@ -45,6 +45,7 @@
     </style>
 </head>
 <body style="background-image: url(images/backgr.jpg)">
+<button class="btn btn-light" style="margin: 10px"><a href="index.html">Home page</a></button>
 <%
     String tableName = (String) (session.getAttribute("tableName"));
     TableModel tableModel = (TableModel) (session.getAttribute("tableModel"));

@@ -3,6 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
     <root id="1">
       <ServerVersion>11.2</ServerVersion>
+      <StartupTime>1576783468</StartupTime>
     </root>
     <database id="2" parent="1" name="karaoke">
       <ObjectId>18362</ObjectId>
@@ -193,11 +194,13 @@
     </sequence>
     <table id="34" parent="21" name="clients">
       <ObjectId>18594</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>1856</StateNumber>
     </table>
     <table id="35" parent="21" name="disks">
       <ObjectId>18368</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>1869</StateNumber>
     </table>
@@ -208,6 +211,7 @@
     </table>
     <table id="37" parent="21" name="order">
       <ObjectId>18588</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>1859</StateNumber>
     </table>
